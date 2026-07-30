@@ -1,7 +1,26 @@
 aid: matrimony-com
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/matrimony-com.png
 name: Matrimony Com
-description: Matrimony Com is a company surfaced as a portfolio company of mayfield and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Matrimony.com Ltd is India's largest wed-tech company and a pioneer in online
+  matchmaking since 2000. Headquartered in Chennai, it operates BharatMatrimony,
+  EliteMatrimony, CommunityMatrimony, Jodii, MeraLuv and 300+ community and
+  regional matrimony portals, alongside wedding-services brands WeddingBazaar,
+  Mandap.com, ManyJobs and WeddingGiftBox. Publicly listed on the NSE and BSE,
+  the company serves roughly 7.5 million customers monthly and is backed by
+  investors including Mayfield. It is a consumer-facing platform and publishes no
+  public developer API, SDK, or developer portal surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/matrimony-com/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Matrimony
+- Matchmaking
+- Wedding Services
+- Wed-Tech
+- Consumer Internet
+- Marketplace
+- India
 apis: []
+common:
+- type: DomainSecurity
+  url: security/matrimony-com-domain-security.yml
+- type: Website
+  url: https://www.matrimony.com/
+- type: About
+  url: https://www.matrimony.com/about-us
+- type: Support
+  url: https://www.matrimony.com/contact-us
+- type: Blog
+  url: https://www.matrimony.com/newsroom
+- type: Investors
+  url: https://www.matrimony.com/investors
+- type: Careers
+  url: https://www.matrimony.com/careers
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
